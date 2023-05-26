@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header h2{
+    text-align: center;
+    padding: 20px;
+    background-color: #672676;
+    color: white;
+    text-decoration: none;
+}
+
+.header a{
+  text-decoration: none;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+  }
+
+.nav-left {
+    left: 0;
+    top: 0;
+    width: 230px;
+    height: 100% ;
+    padding: 20px;
+    background-color: #282a35;
+}
+
+.nav-left ul {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-left li{
+    display: block;
+    padding: 5px;
+    padding-left: 3px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.nav-left a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+}
+  
+  /* Rest of your CSS styles */
+
+footer {
+    background-color: #672676;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    font-size: 16px;
+    color: white;
+  }
+  
+  
+  #rightContainer {
+    flex-basis: 88%;
+    padding: 20px;
+    overflow: auto;
+  }
+
+#rightContainer p{
+    font-size: 20px;
+  }
+
+  #rightContainer img{
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
